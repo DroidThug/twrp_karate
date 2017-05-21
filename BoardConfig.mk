@@ -13,8 +13,8 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno505
 
 # Encryption
-TW_INCLUDE_CRYPTO := true
 TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH := device/lenovo/karate/cryptfs_hw
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/lenovo/karate/kernel

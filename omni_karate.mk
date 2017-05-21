@@ -16,8 +16,12 @@ PRODUCT_COPY_FILES += \
     device/lenovo/karate/kernel:kernel \
     device/lenovo/karate/fstab.qcom:root/fstab.qcom
 
+# Hardware Enabled Encryption
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
+
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := K33
+PRODUCT_DEVICE := karate
 PRODUCT_NAME := omni_karate
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo K33
